@@ -1,0 +1,224 @@
+<!Doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images\il-elephant.png">
+
+    <title> Camp Thailand | Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" >
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.min.css" >
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-reboot.min.css" >
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="../css/starter-template.css" >
+    <link rel="stylesheet" type="text/css" href="../css/custom.css" >
+    <link rel="stylesheet" type="text/css" href="../css/all.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href=index.html <"../images/imgLogo.png"><img class="img-fluid" alt="Logo" src="../images/imgLogo.png" width="75" height="60"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><img class="img-fluid" alt="Logo" src="../images/MENU.png" width="75" height="60"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../html\camp-locations.html">Camp Locations</a>
+            <li class="nav-item">
+              <a class="nav-link" href="../html\gallery.html">Gallery</a>
+                    <li class="nav-item">
+                     <a class="nav-link" href="../html\blogs.html">Blogs</a>
+                      <li class="nav-item">
+                       <a class="nav-link" href="../html\links.html">Links</a>
+
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" alt="Logo" src="../images/MENU.png" width="25" height="25"></a>
+            <div class="dropdown-content">
+              <a href="../html\about-us.html">About Us</a>
+              <a href="../html\contact-us.html">Contact Us</a>
+              <a href="../html\apply-now.html">Apply Now</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>
+
+<header>
+
+  <div style="position:relative; top:200px;" >
+  <div ALIGN = CENTER>
+    <h3>Opening Hours</h3>
+    <p>Monday – Friday, 10am – 10pm GMT</p>
+
+    <p>Saturday & Sunday – 10am – 6pm GMT</p>
+    <h3>Call</h3>
+    <p>01612223780</p>
+    <h3>Text</h3>
+    <p>+447964587642</p>
+    <h3>Email</h3>
+    <p>info@summercampthailand.com</p>
+    <h3>Address</h3>
+    <h4>Unit 5, Foundry, 325 Ordsall Ln,
+Salford M5 3LW</h4>
+</div>
+
+<div style="position:relative; top:-400px;" >
+    <button class="open-button" onclick="openForm()">Message</button>
+    <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+    <h1>Message</h1>
+    <label for="Name"><b>Name</b></label><input type="text" placeholder="Enter Name" name="Name" required>
+    <label for="Email"><b>Email</b></label><input type="text" placeholder="Enter Email" name="Email" required>
+    <label for="MSG"><b>Message</b></label><input type="text" placeholder="Enter Message" name="Msg" required>
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+</div>
+</div>
+</header>
+
+<body>
+</body>
+
+<main>
+<body class="d-flex flex-column">
+  <div style="position:relative; top:600px;" >
+    <div id="page-content">
+      </div>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <h5>Registered in England and Wales No. 07373495. All rights reserved. Invasion is a registered trademark – number UK00003239996 Invasion Camp Group Ltd is a member of ABTA (membership no. Y4841)</h5>
+            <h5>Legal – Privacy Policy</h5>
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+              <a class="nav-link" href="links.html">Links</a>
+                <h4>© Invasion Camp Group</h4>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </main>
+
+    <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+
+    <!--Custom JavaScript
+    ================================================== -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
