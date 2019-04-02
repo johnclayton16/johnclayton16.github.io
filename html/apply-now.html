@@ -118,7 +118,7 @@
                 <p class="help-block ng-binding ng-scope" ng-if="$ctrl.site.Labels.product_selection_intro !== ''" ng-bind-html=":: $ctrl.site.Labels.product_selection_intro || 'Please select the Location and Date you would like to attend:'">Please select the Location and Date you would like to attend:</p><!-- end ngIf: $ctrl.site.Labels.product_selection_intro !== '' -->
 
                 <div class="form-group ng-scope" ng-class="{'has-error': $ctrl.showValError('select-product')}" ng-if="$ctrl.site.Products.length !== 1">
-                    <label class="ng-binding">Select Your Experience<span class="text-danger">*</span>f</label>
+                    <label class="ng-binding">Select Your Experience<span class="text-danger">*</span></label>
                       <ul class="list-unstyled">
                           <li ng-repeat="p in $ctrl.site.Products" class="ng-scope">
                               <label class="ng-binding">
